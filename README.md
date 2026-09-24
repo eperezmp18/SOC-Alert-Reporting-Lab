@@ -41,7 +41,7 @@ An incoming alert flagged an email that bypassed initial gateway filters: `Email
 * **Subject:** Urgent Notice: Microsoft Account Verification Required
 * **Attachment:** Compressed archive (`.zip`) containing an executable payload
 
-*<img width="3744" height="568" alt="image" src="https://github.com/user-attachments/assets/0cad16c2-06e6-40df-990e-00e91741c866" />
+<img width="3744" height="568" alt="image" src="https://github.com/user-attachments/assets/0cad16c2-06e6-40df-990e-00e91741c866" />
 
 ### Technical Analysis & Artifact Verification
 1. **Header Inspection:** Reviewed email authentication headers. Both **SPF (Sender Policy Framework)** and **DKIM (DomainKeys Identified Mail)** failed authentication, proving the sender domain (`microsoft.com`) was spoofed.
